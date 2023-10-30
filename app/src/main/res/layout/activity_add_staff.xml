@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStaff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="@drawable/background_main">
+    <Button
+        android:id="@+id/btnBackProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_gravity="left"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@mipmap/ic_launcher_back"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:text="Thêm Nhân Viên"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã nhân viên:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edMaNV"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edHoVaTen"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phòng ban:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/spPhongBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/bg_spinner"
+        android:dropDownVerticalOffset="50dp"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Thêm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_ql1" />
+
+
+</LinearLayout>

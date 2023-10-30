@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageApp"
+    android:background="@drawable/background_main"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân sự"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:layout_marginTop="45dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FPOLY SOFTWARE COMPANY"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"/>
+    <Button
+        android:id="@+id/btnPhongBan"
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="phòng ban"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_ql1"
+        android:drawableLeft="@mipmap/ic_launcher_back_white_phongban"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnNhanVien"
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="Nhân viên"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_ql1"
+        android:drawableLeft="@mipmap/ic_launcher_back_white_nhanvien"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnThoat"
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="thoát"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_ql1"
+        android:drawableLeft="@mipmap/ic_launcher_back_white_thoat"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
