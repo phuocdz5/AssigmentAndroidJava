@@ -22,7 +22,7 @@ import java.util.List;
 
 public class LoginLayout extends AppCompatActivity {
     private EditText user, pass;
-    private LinearLayout linearLayout;
+    private LinearLayout linearLayout;đasadsa
     private Button btnLogin, btnBackLogin;
     private Account account,userAc;
     private CheckBox rbCheck;
