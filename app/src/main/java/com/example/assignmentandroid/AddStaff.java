@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AddStaff extends AppCompatActivity {
-    private Button btnAdd,btnBack;ddddddddddddd
+    private Button btnAdd,btnBack;ddddddddddddddddd
     private EditText edMaNV,edHovaTen;
     private Spinner spPhongBan;
     private SpinnerAdapter adapter;
