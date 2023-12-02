@@ -29,6 +29,7 @@ public class LoginLayout extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
 
     String test = "test";
+    String test1="dsadasdsa";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
