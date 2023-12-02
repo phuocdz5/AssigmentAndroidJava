@@ -22,11 +22,13 @@ import java.util.List;
 
 public class LoginLayout extends AppCompatActivity {
     private EditText user, pass;
-    private LinearLayout linearLayout;đasadsađasad
+    private LinearLayout linearLayout;
     private Button btnLogin, btnBackLogin;
     private Account account,userAc;
     private CheckBox rbCheck;
     private SharedPreferences sharedPreferences;
+
+    String test = "test";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
